@@ -43,8 +43,9 @@ function FeatureCardBrain(props) {
         <Typography variant="headline" component="h3" className={classes.heading}>
           Neurological Support
         </Typography>
-        <Typography component="p" align="left" className={classes.bodytext}>
-          Long ass sales pitch, omg this is the longest sales pitch in sales history, all the customers are already asleep dude bro wtf xD lmfao
+        <Typography component="p" align="justify" className={classes.bodytext}>
+          Do you have brain fog? Don't feel like getting up and doing what you're supposed to be doing? You might be suffering from a cognitive decline!
+Chiropractics provide services for treating brain and nervous system disorders using safe and powerful techniques producing long-term health benefits.
         </Typography>
       </div>
     </div>

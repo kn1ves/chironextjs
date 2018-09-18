@@ -4,6 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import Link from 'next/link';
 
 const theme = createMuiTheme({
   palette: {
@@ -53,12 +54,16 @@ function Footer(props) {
         <Grid>
           <Grid item xs={12}>
             <div className={classes.footer}>
-              <Button>
-                Home
-              </Button>
-              <Button>
-                Find a chiropractor
-              </Button>
+              <Link href="/">
+                <Button>
+                  Home
+                </Button>
+              </Link>
+              <Link href="/find-a-chiropractor">
+                <Button>
+                  Find a chiropractor
+                </Button>
+              </Link>
               <Button>
                 Contact Us
               </Button>

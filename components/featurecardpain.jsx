@@ -44,8 +44,8 @@ function FeatureCardPain(props) {
         <Typography variant="headline" component="h3" className={classes.heading}>
           Pain Relief
         </Typography>
-        <Typography component="p" align="left" className={classes.bodytext}>
-          Long ass sales pitch, omg this is the longest sales pitch in sales history, all the customers are already asleep dude bro wtf xD lmfao
+        <Typography component="p" align="justify" className={classes.bodytext}>
+          Suffering from pain? Chiropractic is an alternative medicine practice focused on the spine. Chiropractors manipulate the body's alignment to alleviate pain and enhance function and to help the body heal itself. This manipulation is what brings about the relief in pain.
         </Typography>
       </div>
     </div>

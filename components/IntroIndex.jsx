@@ -4,7 +4,8 @@ import Grid from "@material-ui/core/Grid";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import SearchIcon from '@material-ui/icons/Search'
+import SearchIcon from '@material-ui/icons/Search';
+import Link from 'next/link';
 
 const theme = createMuiTheme({
   palette: {
@@ -72,7 +73,11 @@ function IntroIndex(props) {
             <div className={classes.logo}>
               <div className={classes.flex1}>
               <Grid item xs={12}>
-                <img src={require('../img/logo.png')} alt="Chiropractorhunter Logo" width="100%" />
+                <Link href="/">
+                  <Button>
+                    <img src={require('../img/logo.png')} alt="Chiropractorhunter Logo" width="100%" />
+                  </Button>
+                </Link>
               </Grid>
               <Grid item xs={12}>
                 <Typography variant="headline" component="h1" className={classes.chiroheading}>
@@ -84,16 +89,13 @@ function IntroIndex(props) {
                   If you're looking for the best chiropractors near you, then you're at the right place. We have carefully chosen the best quality chiropractics for you.
                 </Typography>
               </Grid>
-              <Grid item xs={12}>
-                <Typography variant="body1" component="p" className={classes.chirop}>
-                  Click on any of the countries in the world map to get started.
-                </Typography>
-              </Grid>
               <Grid>
-                <Button className={classes.button} variant="raised" color="rgb(178,54,52)">
-                  Find
-                  <SearchIcon className={classes.rightIcon} />
-                </Button>
+                <Link href="/find-a-chiropractor">
+                  <Button className={classes.button} variant="raised" color="rgb(178,54,52)">
+                    Find
+                    <SearchIcon className={classes.rightIcon} />
+                  </Button>
+                </Link>
               </Grid>
             </div>
             <div className={classes.flex2}>

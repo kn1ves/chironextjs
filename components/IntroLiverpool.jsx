@@ -4,6 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import Button from '@material-ui/core/Button';
 import SearchIcon from '@material-ui/icons/Search'
 import { Helmet } from 'react-helmet';
+import Link from 'next/link';
 
 const styles = theme => ({
   root: {
@@ -73,7 +74,11 @@ function IntroLiverpool(props) {
             <div className={classes.logo}>
               <div className={classes.flex1}>
               <Grid item xs={12}>
-                <img src={require('../img/logo.png')} alt="Chiropractorhunter Logo" width="100%" />
+                <Link href="/">
+                  <Button>
+                    <img src={require('../img/logo.png')} alt="Chiropractorhunter Logo" width="100%" />
+                  </Button>
+                </Link>
               </Grid>
               <Grid item xs={12}>
                 <h1 className={classes.chiroheading}>

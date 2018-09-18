@@ -8,9 +8,9 @@ import Typography from '@material-ui/core/Typography';
 import FeatureCardMedicine from '../components/featurecard';
 import FeatureCardPain from '../components/featurecardpain';
 import FeatureCardBrain from '../components/featurecardbrain';
-import painimg1 from '../img/pain1.jpg';
+import painimg1 from '../img/pain1.png';
 import painimg2 from '../img/pain2.jpg';
-import painimg3 from '../img/pain3.jpg';
+import painimg3 from '../img/pain3.png';
 
 const styles = theme => ({
   contentwrapper: {
@@ -58,6 +58,8 @@ const styles = theme => ({
     color: '#999999',
     overflow: 'hidden',
     fontSize: 14,
+    paddingLeft: '5%',
+    paddingRight: '5%',
   },
   bodytext2: {
     fontFamily: 'Helvetica',
@@ -83,10 +85,10 @@ function Index(props) {
             <Grid item xs={12}>
               <div className={classes.title}>
                 <h2 className={classes.heading}>
-                  Why to choose a chiropractor
+                  Why To Choose a Chiropractor
                 </h2>
-                <Typography component="p" align="center" className={classes.bodytext}>
-                  Long ass sales pitcch, omg this is the longest sales pitch in sales history, all the customers are already asleep dude bro wtf xD lmfao
+                <Typography component="p" align="justify" className={classes.bodytext}>
+                  You should go for chiropractic care if you love the idea of achieving health naturally, without the use of drugs and surgery. Most people mock chiropractors saying they are not "real doctors". However, chiropractors, like medical doctors, undergo an uncompromising education in the medical sciences. In areas like anatomy, physiology, rehabilitation, nutrition, and public health, they receive a more intensive, hands-on education than their MD counterparts. A typical applicant at a chiropractic college has already acquired around 4 years of pre-medical education including courses in biology, chemistry, physics, and psychology. After joining a chiropractic college, the requirements become even more demanding. 4-5 years of professional study are the standard and due to the hands-on nature of chiropractic, a significant portion of time is spent in clinical training.
                 </Typography>
               </div>
             </Grid>
@@ -115,9 +117,10 @@ function Index(props) {
                 What causes back pain?
               </h3>
               <Typography component="p" align="justify" className={classes.bodytext2}>
-                Your neck is made up of vertebrae that extend from the skull to the upper torso. Cervical discs absorb shock between the bones. The bones, ligaments, and muscles of your neck support your head and allow for motion. Any abnormalities, inflammation, or injury can cause neck pain or stiffness.
-                Neck pain can come from a number of disorders and diseases and can involve any of the tissues in the neck. Examples of common conditions causing neck pain are degenerative disc disease, neck strain, neck injury such as in whiplash, a herniated disc, or a pinched nerve. Neck pain is also referred to as cervical pain.
-                Creams or gels, such as Bengay, that are rubbed into the neck. Nonsteroidal anti-inflammatory drugs, including ibuprofen (such as Advil) or naproxen (such as Aleve), that can help relieve pain and reduce inflammation.
+                The spine is made up of vertebrae extending from the skull and ending at the sacrum. Cervical discs are present in between to absorb shocks. Inflammation or injury in the spinal joints, muscles, discs or nerves can cause back pain or stiffness. Examples of common conditions causing back pain are herniated or slipped discs, bulging discs, degenerated disc disease, a pinched nerve, or injuries/strain.
+              </Typography><br/>
+              <Typography component="p" align="justify" className={classes.bodytext2}>
+                Generally, drugs taken to cure back pain are drugs like Tylenol (acetaminophen) or Advil (Ibuprofen). However, these come with side effects like nausea, stomach pain, itching, rash, dark urine, etc.
               </Typography>
             </Grid>
             <Grid item xs={12} sm={4}>

@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'next/link';
 import { withStyles } from '@material-ui/core/styles';
 import IconButton from '@material-ui/core/IconButton';
 import FacebookIcon from 'react-icons/lib/fa/facebook-square';
@@ -18,21 +17,21 @@ function SMButtons(props) {
   } = props;
   return (
     <div className={classes.root}>
-    <Link href='/'>
+    <a href='https://www.facebook.com/Chiropractorhunter-2075898506059830/?ref=aymt_homepage_panel' target="_blank">
       <IconButton>
         <FacebookIcon size="24" color="#fff" />
       </IconButton>
-    </Link>
-    <Link href='/'>
+    </a>
+    <a href='https://www.instagram.com/chiropractorhunter1/' target="_blank">
       <IconButton>
         <InstagramIcon size="24" color="#fff" />
       </IconButton>
-    </Link>
-    <Link href='/'>
+    </a>
+    <a href='https://twitter.com/kapil_shrotriya' target="_blank">
       <IconButton>
         <TwitterIcon size="24" color="#fff" />
       </IconButton>
-    </Link>
+    </a>
     </div>
   );
 }

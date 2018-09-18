@@ -44,8 +44,8 @@ function FeatureCardMedicine(props) {
         <Typography variant="headline" component="h3" className={classes.heading}>
           Medicine Free
         </Typography>
-        <Typography component="p" align="left" className={classes.bodytext}>
-          Long ass sales pitch, omg this is the longest sales pitch in sales history, all the customers are already asleep dude bro wtf xD lmfao
+        <Typography component="p" align="justify" className={classes.bodytext}>
+          Most modern healthcare professionals lean toward pills for tackling any kind of problem their patients face which can have severe side effects. If you're currently undergoing some kind of treatment for your pain, then chiropractic care will complement the treatment helping you recover quickly.
         </Typography>
       </div>
     </div>
