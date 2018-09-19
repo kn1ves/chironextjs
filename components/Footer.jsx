@@ -54,16 +54,16 @@ function Footer(props) {
         <Grid>
           <Grid item xs={12}>
             <div className={classes.footer}>
-              <Link href="/">
+              <a href="/" style={{textDecoration: 'none',}}>
                 <Button>
                   Home
                 </Button>
-              </Link>
-              <Link href="/find-a-chiropractor">
+              </a>
+              <a href="/find-a-chiropractor" style={{textDecoration: 'none',}}>
                 <Button>
                   Find a chiropractor
                 </Button>
-              </Link>
+              </a>
               <Button>
                 Contact Us
               </Button>

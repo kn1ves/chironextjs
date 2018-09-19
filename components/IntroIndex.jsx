@@ -73,11 +73,11 @@ function IntroIndex(props) {
             <div className={classes.logo}>
               <div className={classes.flex1}>
               <Grid item xs={12}>
-                <Link href="/">
+                <a href="/" style={{textDecoration: 'none',}}>
                   <Button>
                     <img src={require('../img/logo.png')} alt="Chiropractorhunter Logo" width="100%" />
                   </Button>
-                </Link>
+                </a>
               </Grid>
               <Grid item xs={12}>
                 <Typography variant="headline" component="h1" className={classes.chiroheading}>
@@ -90,12 +90,12 @@ function IntroIndex(props) {
                 </Typography>
               </Grid>
               <Grid>
-                <Link href="/find-a-chiropractor">
+                <a href="/find-a-chiropractor" style={{textDecoration: 'none',}}>
                   <Button className={classes.button} variant="raised" color="rgb(178,54,52)">
                     Find
                     <SearchIcon className={classes.rightIcon} />
                   </Button>
-                </Link>
+                </a>
               </Grid>
             </div>
             <div className={classes.flex2}>

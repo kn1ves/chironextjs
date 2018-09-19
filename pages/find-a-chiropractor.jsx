@@ -7,6 +7,7 @@ import IntroIndex from '../components/IntroIndex';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const styles = theme => ({
   contentwrapper: {
@@ -72,6 +73,14 @@ function Index(props) {
 
   return (
     <Layout>
+    <Head>
+      <title>Find a Chiropractor | Chiropractorhunter</title>
+      <meta property="og:title" content="Find a Chiropractor | Chiropractorhunter" />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="https://chiropractohunter.com/find-a-chiropractor" />
+      <meta name="description" content="Find the best chiropractors!" />
+      <link rel="canonical" href="https://chiropractorhunter.com/find-a-chiropractor" />
+    </Head>
       <div>
         <IntroIndex />
       </div>
@@ -87,11 +96,11 @@ function Index(props) {
             </Grid>
             <Grid item xs={4}>
               <div className={classes.title}>
-                <Link href="/chiropractor-liverpool">
+                <a href="/chiropractor-liverpool" style={{textDecoration: 'none',}}>
                   <Button>
                     Liverpool, England
                   </Button>
-                </Link>
+                </a>
               </div>
             </Grid>
             <Grid item xs={4}>

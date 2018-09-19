@@ -1,0 +1,1 @@
+{"version":3,"file":"7.995c3c7ba7129e912e04.hot-update.js","sources":["webpack:///./node_modules/next/head.js"],"sourcesContent":["module.exports = require('./dist/lib/head')\n\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./node_modules/next/head.js\n// module id = ./node_modules/next/head.js\n// module chunks = 6 7"],"mappings":";;;;;AAAA;;;;;A","sourceRoot":""}

@@ -139,45 +139,40 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 12
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        }
-      }, "Chiropractorhunter"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         charSet: "utf-8",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 13
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "viewport",
         content: "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 15
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "theme-color",
         content: pageContext.theme.palette.primary.main,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 20
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 22
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 23
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 24
         }
       })));
     }
@@ -216,7 +211,7 @@ MyDocument.getInitialProps = function (ctx) {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Component, _extends({}, props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 59
         }
       }));
     };
@@ -232,7 +227,7 @@ MyDocument.getInitialProps = function (ctx) {
     styles: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Fragment, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 75
+        lineNumber: 74
       }
     }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("style", {
       id: "jss-server-side" // eslint-disable-next-line react/no-danger
@@ -242,7 +237,7 @@ MyDocument.getInitialProps = function (ctx) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 76
+        lineNumber: 75
       }
     }), __WEBPACK_IMPORTED_MODULE_3_styled_jsx_server___default()() || null)
   });

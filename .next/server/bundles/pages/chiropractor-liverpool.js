@@ -176,8 +176,11 @@ function Footer(props) {
       fileName: _jsxFileName,
       lineNumber: 56
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_next_link___default.a, {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "/",
+    style: {
+      textDecoration: 'none'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 57
@@ -187,8 +190,11 @@ function Footer(props) {
       fileName: _jsxFileName,
       lineNumber: 58
     }
-  }, "Home")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_next_link___default.a, {
+  }, "Home")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "/find-a-chiropractor",
+    style: {
+      textDecoration: 'none'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
@@ -357,8 +363,8 @@ ChiroAppBar.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__material_ui_core_Button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Button__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_icons_Search__ = __webpack_require__("@material-ui/icons/Search");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_icons_Search___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__material_ui_icons_Search__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_helmet__ = __webpack_require__("react-helmet");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_helmet___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react_helmet__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_next_head__ = __webpack_require__("next/head");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_next_head__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_next_link__);
 var _jsxFileName = "/Users/kapilshrotriya/chironextjs/components/IntroLiverpool.jsx";
@@ -428,7 +434,7 @@ function IntroLiverpool(props) {
       fileName: _jsxFileName,
       lineNumber: 62
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_react_helmet__["Helmet"], {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_next_head___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 63
@@ -454,7 +460,7 @@ function IntroLiverpool(props) {
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
     property: "og:url",
-    content: "http://www.chiropractohunter.com/chiropractor-liverpool",
+    content: "https://chiropractohunter.com/chiropractor-liverpool",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 67
@@ -468,7 +474,7 @@ function IntroLiverpool(props) {
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
     rel: "canonical",
-    href: "http://www.chiropractorhunter.com/chiropractor-liverpool",
+    href: "https://chiropractorhunter.com/chiropractor-liverpool",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 69
@@ -510,8 +516,11 @@ function IntroLiverpool(props) {
       fileName: _jsxFileName,
       lineNumber: 76
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_next_link___default.a, {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "/",
+    style: {
+      textDecoration: 'none'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 77
@@ -1770,13 +1779,6 @@ module.exports = require("prop-types");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ "react-helmet":
-/***/ (function(module, exports) {
-
-module.exports = require("react-helmet");
 
 /***/ }),
 

@@ -11,6 +11,7 @@ import FeatureCardBrain from '../components/featurecardbrain';
 import painimg1 from '../img/pain1.png';
 import painimg2 from '../img/pain2.jpg';
 import painimg3 from '../img/pain3.png';
+import Head from 'next/head';
 
 const styles = theme => ({
   contentwrapper: {
@@ -76,6 +77,14 @@ function Index(props) {
 
   return (
     <Layout>
+    <Head>
+      <title>Find Chiropractors Near You | Chiropractorhunter</title>
+      <meta property="og:title" content="Find Chiropractors Near You | Chiropractorhunter" />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="https://chiropractohunter.com" />
+      <meta name="description" content="Looking for the best chiropractors near you? You're at the right place!" />
+      <link rel="canonical" href="https://chiropractorhunter.com" />
+    </Head>
       <div>
         <IntroIndex />
       </div>
@@ -133,8 +142,11 @@ function Index(props) {
                 Treating back pain
               </h3>
               <Typography component="p" align="justify" className={classes.bodytext2}>
-                Chiropractic is a health care profession dedicated to the non-surgical treatment of disorders of the nervous system and/or musculoskeletal system. Generally, chiropractors maintain a unique focus on spinal manipulation and treatment of surrounding structures.
-                Regular chiropractic treatments usually focus on spinal manipulation and alignment to aid pain management and stimulate the body’s self-healing abilities. Realignment of the spine is thought to reduce pressure on the central nervous system. Headaches and lower back pain are among the most common conditions treated by a chiropractor.
+                Chiropractic usually focuses on spinal adjustment and manipulation to reduce pain and helps stimulate the body’s self-healing abilities. Realignment of the spine reduces the pressure on the central nervous system.  Along with reducing pain, chiropractic treatment will also help to increase the range of motion of the affected area and make everyday tasks smooth and pain-free.
+              </Typography>
+              <br/>
+              <Typography component="p" align="justify" className={classes.bodytext2}>
+                Chiropractic might appear as pseudoscience to many, however, there is sound research-backed support for chiropractic treatment for lower back pain. Many research papers recommend chiropractic adjustments to be included for a pain-free lifestyle. 
               </Typography>
             </Grid>
             <Grid item xs={12} sm={4}>
@@ -147,8 +159,14 @@ function Index(props) {
                 Treating headaches
               </h3>
               <Typography component="p" align="justify" className={classes.bodytext2}>
-                Long ass sales pitch, omg this is the longest sales pitch in sales history, all the customers are already asleep dude bro wtf xD lmfao
+                The general and intuitive approach for dealing with headaches is to either lie down for a while or pop a pill in hope of getting rid of it in a few hours, however, prevention is always better than cure.
+                Spinal manipulation, a technique used by chiropractors is an effective treatment for headaches.
               </Typography>
+              <br/>
+              <Typography component="p" align="justify" className={classes.bodytext2}>
+                Moreover, your chiropractor can also make an adjustment schedule and suggest changes in your diet combined with the use of hot and cold packs to keep headaches at bay.
+              </Typography>
+              <br/>
             </Grid>
           </Grid>
         </Paper>

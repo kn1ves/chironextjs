@@ -3,7 +3,7 @@ import { withStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Button from '@material-ui/core/Button';
 import SearchIcon from '@material-ui/icons/Search'
-import { Helmet } from 'react-helmet';
+import Head from 'next/head';
 import Link from 'next/link';
 
 const styles = theme => ({
@@ -60,25 +60,25 @@ function IntroLiverpool(props) {
 
   return (
     <div>
-      <Helmet>
+      <Head>
         <title>Chiropractor Liverpool, England</title>
         <meta property="og:title" content="Chiropractor in Liverpool, England" />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="http://www.chiropractohunter.com/chiropractor-liverpool" />
+        <meta property="og:url" content="https://chiropractohunter.com/chiropractor-liverpool" />
         <meta name="description" content="Looking for the best chiropractor in liverpool? You're at the right place!" />
-        <link rel="canonical" href="http://www.chiropractorhunter.com/chiropractor-liverpool" />
-      </Helmet>
+        <link rel="canonical" href="https://chiropractorhunter.com/chiropractor-liverpool" />
+      </Head>
       <div className={classes.root}>
         <Grid>
           <Grid item xs={12}>
             <div className={classes.logo}>
               <div className={classes.flex1}>
               <Grid item xs={12}>
-                <Link href="/">
+                <a href="/" style={{textDecoration: 'none',}}>
                   <Button>
                     <img src={require('../img/logo.png')} alt="Chiropractorhunter Logo" width="100%" />
                   </Button>
-                </Link>
+                </a>
               </Grid>
               <Grid item xs={12}>
                 <h1 className={classes.chiroheading}>

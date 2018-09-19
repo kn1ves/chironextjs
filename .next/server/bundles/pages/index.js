@@ -176,8 +176,11 @@ function Footer(props) {
       fileName: _jsxFileName,
       lineNumber: 56
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_next_link___default.a, {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "/",
+    style: {
+      textDecoration: 'none'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 57
@@ -187,8 +190,11 @@ function Footer(props) {
       fileName: _jsxFileName,
       lineNumber: 58
     }
-  }, "Home")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_next_link___default.a, {
+  }, "Home")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "/find-a-chiropractor",
+    style: {
+      textDecoration: 'none'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
@@ -476,8 +482,11 @@ function IntroIndex(props) {
       fileName: _jsxFileName,
       lineNumber: 75
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_next_link___default.a, {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "/",
+    style: {
+      textDecoration: 'none'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 76
@@ -535,8 +544,11 @@ function IntroIndex(props) {
       fileName: _jsxFileName,
       lineNumber: 92
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_next_link___default.a, {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "/find-a-chiropractor",
+    style: {
+      textDecoration: 'none'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 93
@@ -1511,7 +1523,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__img_pain2_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__img_pain2_jpg__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__img_pain3_png__ = __webpack_require__("./img/pain3.png");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__img_pain3_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__img_pain3_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_next_head__ = __webpack_require__("next/head");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_next_head__);
 var _jsxFileName = "/Users/kapilshrotriya/chironextjs/pages/index.jsx";
+
 
 
 
@@ -1593,53 +1608,98 @@ function Index(props) {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_Layout__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 79
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_IntroIndex__["a" /* default */], {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_14_next_head___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 80
     }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    }
+  }, "Find Chiropractors Near You | Chiropractorhunter"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+    property: "og:title",
+    content: "Find Chiropractors Near You | Chiropractorhunter",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 82
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+    property: "og:type",
+    content: "article",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+    property: "og:url",
+    content: "https://chiropractohunter.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+    name: "description",
+    content: "Looking for the best chiropractors near you? You're at the right place!",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+    rel: "canonical",
+    href: "https://chiropractorhunter.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    }
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_IntroIndex__["a" /* default */], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    }
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__material_ui_core_Paper___default.a, {
     className: classes.contentwrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 92
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
     container: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 93
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
     item: true,
     xs: 12,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 94
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: classes.title,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 95
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
     className: classes.heading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 96
     }
   }, "Why To Choose a Chiropractor"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_Typography___default.a, {
     component: "p",
@@ -1647,7 +1707,7 @@ function Index(props) {
     className: classes.bodytext,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 99
     }
   }, "You should go for chiropractic care if you love the idea of achieving health naturally, without the use of drugs and surgery. Most people mock chiropractors saying they are not \"real doctors\". However, chiropractors, like medical doctors, undergo an uncompromising education in the medical sciences. In areas like anatomy, physiology, rehabilitation, nutrition, and public health, they receive a more intensive, hands-on education than their MD counterparts. A typical applicant at a chiropractic college has already acquired around 4 years of pre-medical education including courses in biology, chemistry, physics, and psychology. After joining a chiropractic college, the requirements become even more demanding. 4-5 years of professional study are the standard and due to the hands-on nature of chiropractic, a significant portion of time is spent in clinical training."))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
     item: true,
@@ -1655,56 +1715,18 @@ function Index(props) {
     sm: 4,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 104
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: classes.feature,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__components_featurecard__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 97
-    }
-  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
-    item: true,
-    xs: 12,
-    sm: 4,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 100
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: classes.feature,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 101
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__components_featurecardpain__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 102
-    }
-  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
-    item: true,
-    xs: 12,
-    sm: 4,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 105
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: classes.feature,
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__components_featurecard__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 106
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__components_featurecardbrain__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 107
     }
   }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
     item: true,
@@ -1712,13 +1734,51 @@ function Index(props) {
     sm: 4,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 109
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: classes.feature,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 110
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__components_featurecardpain__["a" /* default */], {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 111
+    }
+  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
+    item: true,
+    xs: 12,
+    sm: 4,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: classes.feature,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__components_featurecardbrain__["a" /* default */], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116
+    }
+  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
+    item: true,
+    xs: 12,
+    sm: 4,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: classes.feature,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 120
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: __WEBPACK_IMPORTED_MODULE_12__img_pain2_jpg___default.a,
@@ -1727,7 +1787,7 @@ function Index(props) {
     alt: "Backache",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 121
     }
   }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
     item: true,
@@ -1735,13 +1795,13 @@ function Index(props) {
     sm: 8,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 124
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
     className: classes.subheading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 125
     }
   }, "What causes back pain?"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_Typography___default.a, {
     component: "p",
@@ -1749,12 +1809,12 @@ function Index(props) {
     className: classes.bodytext2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 128
     }
   }, "The spine is made up of vertebrae extending from the skull and ending at the sacrum. Cervical discs are present in between to absorb shocks. Inflammation or injury in the spinal joints, muscles, discs or nerves can cause back pain or stiffness. Examples of common conditions causing back pain are herniated or slipped discs, bulging discs, degenerated disc disease, a pinched nerve, or injuries/strain."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 130
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_Typography___default.a, {
     component: "p",
@@ -1762,7 +1822,7 @@ function Index(props) {
     className: classes.bodytext2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 131
     }
   }, "Generally, drugs taken to cure back pain are drugs like Tylenol (acetaminophen) or Advil (Ibuprofen). However, these come with side effects like nausea, stomach pain, itching, rash, dark urine, etc.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
     item: true,
@@ -1770,13 +1830,13 @@ function Index(props) {
     sm: 4,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 135
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: classes.feature,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 136
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: __WEBPACK_IMPORTED_MODULE_11__img_pain1_png___default.a,
@@ -1785,7 +1845,7 @@ function Index(props) {
     alt: "Backache treatment",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 137
     }
   }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
     item: true,
@@ -1793,13 +1853,13 @@ function Index(props) {
     sm: 8,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 140
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
     className: classes.subheading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 141
     }
   }, "Treating back pain"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_Typography___default.a, {
     component: "p",
@@ -1807,21 +1867,34 @@ function Index(props) {
     className: classes.bodytext2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 144
     }
-  }, "Chiropractic is a health care profession dedicated to the non-surgical treatment of disorders of the nervous system and/or musculoskeletal system. Generally, chiropractors maintain a unique focus on spinal manipulation and treatment of surrounding structures. Regular chiropractic treatments usually focus on spinal manipulation and alignment to aid pain management and stimulate the body\u2019s self-healing abilities. Realignment of the spine is thought to reduce pressure on the central nervous system. Headaches and lower back pain are among the most common conditions treated by a chiropractor.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
+  }, "Chiropractic usually focuses on spinal adjustment and manipulation to reduce pain and helps stimulate the body\u2019s self-healing abilities. Realignment of the spine reduces the pressure on the central nervous system.  Along with reducing pain, chiropractic treatment will also help to increase the range of motion of the affected area and make everyday tasks smooth and pain-free."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 147
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_Typography___default.a, {
+    component: "p",
+    align: "justify",
+    className: classes.bodytext2,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 148
+    }
+  }, "Chiropractic might appear as pseudoscience to many, however, there is sound research-backed support for chiropractic treatment for lower back pain. Many research papers recommend chiropractic adjustments to be included for a pain-free lifestyle.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
     item: true,
     xs: 12,
     sm: 4,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 152
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: classes.feature,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 153
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: __WEBPACK_IMPORTED_MODULE_13__img_pain3_png___default.a,
@@ -1830,7 +1903,7 @@ function Index(props) {
     alt: "Headache treatment",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142
+      lineNumber: 154
     }
   }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Grid___default.a, {
     item: true,
@@ -1838,13 +1911,13 @@ function Index(props) {
     sm: 8,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
+      lineNumber: 157
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
     className: classes.subheading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 158
     }
   }, "Treating headaches"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_Typography___default.a, {
     component: "p",
@@ -1852,9 +1925,27 @@ function Index(props) {
     className: classes.bodytext2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 161
     }
-  }, "Long ass sales pitch, omg this is the longest sales pitch in sales history, all the customers are already asleep dude bro wtf xD lmfao"))))));
+  }, "The general and intuitive approach for dealing with headaches is to either lie down for a while or pop a pill in hope of getting rid of it in a few hours, however, prevention is always better than cure. Spinal manipulation, a technique used by chiropractors is an effective treatment for headaches."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 165
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_Typography___default.a, {
+    component: "p",
+    align: "justify",
+    className: classes.bodytext2,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 166
+    }
+  }, "Moreover, your chiropractor can also make an adjustment schedule and suggest changes in your diet combined with the use of hot and cold packs to keep headaches at bay."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 169
+    }
+  }))))));
 }
 
 Index.propTypes = {
