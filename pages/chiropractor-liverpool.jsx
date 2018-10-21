@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
+import Divider from '@material-ui/core/Divider';
 import Layout from '../components/Layout';
 import Paper from '@material-ui/core/Paper';
 import chiro from '../img/doctor.svg';
@@ -71,6 +73,49 @@ const styles = theme => ({
     paddingRight: '8%',
     paddingLeft: '8%',
   },
+  infowrapper: {
+    height: 250,
+  },
+  details: {
+    height: 250,
+    marginLeft: '8%',
+    marginRight: '8%',
+    marginTop: 0,
+    marginBottom: 0,
+    alignContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+  },
+  infohead: {
+    backgroundColor: 'rgb(12,91,173)',
+    borderRadius: 4,
+    height: 60,
+    width: '100%',
+    alignContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+  },
+  infoheading: {
+    margin: 0,
+    paddingTop: 15,
+    color: '#fff',
+    minHeight: 16,
+    fontWeight: 700,
+    fontSize: '1.25rem',
+    fontFamily: 'Helvetica',
+    textDecoration: 'none',
+  },
+  infotext: {
+    margin: 0,
+    fontSize: '1rem',
+    fontWeight: 400,
+    fontFamily: 'Helvetica',
+    textDecoration: 'none',
+  },
+  fullwidth: {
+    width: '100%',
+  },
+
 });
 
 function Liverpool(props) {
@@ -81,12 +126,12 @@ function Liverpool(props) {
       <div>
         <IntroLiverpool />
       </div>
-      <div>
+      <div itemscope itemtype="http://schema.org/MedicalBusiness">
         <Paper className={classes.contentwrapper}>
           <Grid container>
             <Grid item xs={12}>
               <div className={classes.title}>
-                <img src={chiro} height="128" width="128" alt="Chiropractor in Liverpool" />
+                <img src={chiro} itemprop="logo" height="128" width="128" alt="Chiropractor in Liverpool" />
               </div>
             </Grid>
             <Grid item xs={12}>
@@ -94,6 +139,104 @@ function Liverpool(props) {
                 <h2 className={classes.heading}>
                   Chiropractors in Liverpool, England
                 </h2>
+              </div>
+            </Grid>
+            <Grid item xs={12}>
+              <Grid container className={classes.infowrapper}>
+                <Grid item xs={4}>
+                  <Paper className={classes.details}>
+                    <Paper className={classes.infohead}>
+                      <h2 className={classes.infoheading}>Qualified Chiropractors</h2>
+                    </Paper>
+                    <Grid item xs={12}>
+                      <Button className={classes.fullwidth}>
+                        <h3 className={classes.infotext}>10 Years of Experience</h3>
+                      </Button>
+                    </Grid>
+                    <Divider />
+                    <Grid item xs={12}>
+                      <Button className={classes.fullwidth}>
+                        <h3 className={classes.infotext}>More than 500 Happy Clients</h3>
+                      </Button>
+                    </Grid>
+                    <Divider />
+                    <Grid item xs={12}>
+                      <Button className={classes.fullwidth}>
+                        <h3 className={classes.infotext}>NIH Accredited</h3>
+                      </Button>
+                    </Grid>
+                    <Divider />
+                    <Grid item xs={12}>
+                      <Button className={classes.fullwidth}>
+                        <h3 itemprop="knowsAbout" className={classes.infotext}>Alternative Medicine</h3>
+                      </Button>
+                    </Grid>
+                  </Paper>
+                </Grid>
+                <Grid item xs={4}>
+                  <Paper className={classes.details}>
+                    <Paper className={classes.infohead}>
+                      <h2 className={classes.infoheading}>Information</h2>
+                    </Paper>
+                    <Grid item xs={12}>
+                      <Button className={classes.fullwidth}>
+                        <h3 className={classes.infotext}>Book an Appointment <em itemprop="telephone">+44 3069 990145</em></h3>
+                      </Button>
+                    </Grid>
+                    <Divider />
+                    <Grid item xs={12}>
+                      <Button className={classes.fullwidth}>
+                        <h3 className={classes.infotext}><span itemprop="openingHours" content="Mo-Fr 10:00-18:00">Open Monday to Friday 10AM to 6PM</span></h3>
+                      </Button>
+                    </Grid>
+                    <Divider />
+                    <Grid item xs={12}>
+                      <Button className={classes.fullwidth}>
+                        <h3 itemprop="areaServed" className={classes.infotext}>Liverpool, England</h3>
+                      </Button>
+                    </Grid>
+                    <Divider />
+                    <Grid item xs={12}>
+                      <Button className={classes.fullwidth}>
+                        <h3 itemprop="email" className={classes.infotext}>chiropractorhunter@gmail.com</h3>
+                      </Button>
+                    </Grid>
+                  </Paper>
+                </Grid>
+                <Grid item xs={4}>
+                  <Paper className={classes.details}>
+                    <Paper className={classes.infohead}>
+                      <h2 className={classes.infoheading}>Pricing</h2>
+                    </Paper>
+                    <Grid item xs={12}>
+                      <Button className={classes.fullwidth}>
+                        <h3 className={classes.infotext}>&pound;<span itemprop="priceRange">50</span> per visit (<span itemprop="currenciesAccepted">GBP</span>)</h3>
+                      </Button>
+                    </Grid>
+                    <Divider />
+                    <Grid item xs={12}>
+                      <Button className={classes.fullwidth}>
+                        <h3 className={classes.infotext}>&pound;30 for X-RAY</h3>
+                      </Button>
+                    </Grid>
+                    <Divider />
+                    <Grid item xs={12}>
+                      <Button className={classes.fullwidth}>
+                        <h3 className={classes.infotext}>&pound;30 for follow-up visits</h3>
+                      </Button>
+                    </Grid>
+                    <Divider />
+                    <Grid item xs={12}>
+                      <Button className={classes.fullwidth}>
+                        <h3 className={classes.infotext}>&pound;15 for Custom Diet Chart</h3>
+                      </Button>
+                    </Grid>
+                  </Paper>
+                </Grid>
+              </Grid>
+            </Grid>
+            <Grid item xs={12}>
+              <div className={classes.title}>
                 <h3 className={classes.bodytext}>
                   The ability to carry on with a healthy lifestyle goes past access to quality doctors, optimal healthcare benefits or even high-class hospitals. A city's health, to a large degree, takes into consideration the decisions its occupants make to bring down their individual health risks. In the event that you are a part of the healthy breed, carrying on with a balanced way of life shouldn't be a troublesome task. There are many ways to guarantee that you remain in a healthy state. The following are a couple of tips to enable you to maintain your well-being.
                 </h3>
@@ -101,7 +244,7 @@ function Liverpool(props) {
             </Grid>
             <Grid item xs={12} sm={3}>
               <div className={classes.title}>
-                <img src={walking} height="80" width="80" alt="Walking 80x80" />
+                <img src={walking} height="80" width="80" alt="Walking" />
               </div>
             </Grid>
             <Grid item xs={12} sm={9}>
@@ -112,7 +255,7 @@ function Liverpool(props) {
             </Grid>
             <Grid item xs={12} sm={3}>
               <div className={classes.title}>
-                <img src={stairs} height="80" width="80" alt="Stairs 80x80" />
+                <img src={stairs} height="80" width="80" alt="Stairs" />
               </div>
             </Grid>
             <Grid item xs={12} sm={9}>
@@ -123,7 +266,7 @@ function Liverpool(props) {
             </Grid>
             <Grid item xs={12} sm={3}>
               <div className={classes.title}>
-                <img src={exercise} height="80" width="80" alt="Exercise 80x80" />
+                <img src={exercise} height="80" width="80" alt="Exercise" />
               </div>
             </Grid>
             <Grid item xs={12} sm={9}>
@@ -134,7 +277,7 @@ function Liverpool(props) {
             </Grid>
             <Grid item xs={12} sm={3}>
               <div className={classes.title}>
-                <img src={diet} height="80" width="80" alt="Diet 80x80" />
+                <img src={diet} height="80" width="80" alt="Diet" />
               </div>
             </Grid>
             <Grid item xs={12} sm={9}>
@@ -145,7 +288,7 @@ function Liverpool(props) {
             </Grid>
             <Grid item xs={12} sm={3}>
               <div className={classes.title}>
-                <img src={conclusion} height="80" width="80" alt="Conclusion 80x80" />
+                <img src={conclusion} height="80" width="80" alt="Conclusion" />
               </div>
             </Grid>
             <Grid item xs={12} sm={9}>

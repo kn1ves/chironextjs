@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
 import Pain from '../img/pain.svg';
 {/*import '../assets/fontstyles';*/}
 
@@ -41,12 +40,12 @@ function FeatureCardPain(props) {
     <div>
       <div className={classes.root}>
         <img src={Pain} height='128' width='128' className={classes.imgvector} alt="Pain Relief" />
-        <Typography variant="headline" component="h3" className={classes.heading}>
+        <h3 className={classes.heading}>
           Pain Relief
-        </Typography>
-        <Typography component="p" align="justify" className={classes.bodytext}>
+        </h3>
+        <p align="justify" className={classes.bodytext}>
           Suffering from pain? Chiropractic is an alternative medicine practice focused on the spine. Chiropractors manipulate the body's alignment to alleviate pain and enhance function and to help the body heal itself. This manipulation is what brings about the relief in pain.
-        </Typography>
+        </p>
       </div>
     </div>
   );

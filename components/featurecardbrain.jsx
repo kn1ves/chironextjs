@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
 import Brain from '../img/brain.svg';
 
 const styles = theme => ({
@@ -40,13 +39,13 @@ function FeatureCardBrain(props) {
     <div>
       <div className={classes.root}>
         <img src={Brain} height='128' width='128' className={classes.imgvector} alt="Neurological Support" />
-        <Typography variant="headline" component="h3" className={classes.heading}>
+        <h3 className={classes.heading}>
           Neurological Support
-        </Typography>
-        <Typography component="p" align="justify" className={classes.bodytext}>
+        </h3>
+        <p align="justify" className={classes.bodytext}>
           Do you have brain fog? Don't feel like getting up and doing what you're supposed to be doing? You might be suffering from a cognitive decline!
 Chiropractics provide services for treating brain and nervous system disorders using safe and powerful techniques producing long-term health benefits.
-        </Typography>
+        </p>
       </div>
     </div>
   );

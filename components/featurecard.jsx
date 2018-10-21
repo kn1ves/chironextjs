@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
 import Medicine from '../img/medicine.svg';
-{/*import '../assets/fontstyles';*/}
 
 const styles = theme => ({
   root: theme.mixins.gutters({
@@ -41,12 +39,12 @@ function FeatureCardMedicine(props) {
     <div>
       <div className={classes.root}>
         <img src={Medicine} height='128' width='128' className={classes.imgvector} alt="Medicine Free" />
-        <Typography variant="headline" component="h3" className={classes.heading}>
+        <h3 className={classes.heading}>
           Medicine Free
-        </Typography>
-        <Typography component="p" align="justify" className={classes.bodytext}>
+        </h3>
+        <p align="justify" className={classes.bodytext}>
           Most modern healthcare professionals lean toward pills for tackling any kind of problem their patients face which can have severe side effects. If you're currently undergoing some kind of treatment for your pain, then chiropractic care will complement the treatment helping you recover quickly.
-        </Typography>
+        </p>
       </div>
     </div>
   );

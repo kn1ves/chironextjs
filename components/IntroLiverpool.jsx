@@ -5,6 +5,7 @@ import Button from '@material-ui/core/Button';
 import SearchIcon from '@material-ui/icons/Search'
 import Head from 'next/head';
 import Link from 'next/link';
+import favicon from '../img/chiroicon.png'
 
 const styles = theme => ({
   root: {
@@ -62,11 +63,14 @@ function IntroLiverpool(props) {
     <div>
       <Head>
         <title>Chiropractor Liverpool, England</title>
+        <meta itemscope itemtype="http://schema.org/MedicalBusiness" />
         <meta property="og:title" content="Chiropractor in Liverpool, England" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://chiropractohunter.com/chiropractor-liverpool" />
-        <meta name="description" content="Looking for the best chiropractor in liverpool? You're at the right place!" />
+        <meta name="description" content="Looking for the best chiropractor in liverpool? We have the best chiropractor you can find in Liverpool, England. Our selected chiropractic practitioners are highly qualified and trained to deal with your ailments and will help you feel better in no time!" />
+        <meta name="keywords" content="chiropractors,chiropractic,pain,clinic,chiropractors,liverpool,england" />
         <link rel="canonical" href="https://chiropractorhunter.com/chiropractor-liverpool" />
+        <link rel="icon" href={favicon} type="image/png" />
       </Head>
       <div className={classes.root}>
         <Grid>
@@ -76,7 +80,7 @@ function IntroLiverpool(props) {
               <Grid item xs={12}>
                 <a href="/" style={{textDecoration: 'none',}}>
                   <Button>
-                    <img src={require('../img/logo.png')} alt="Chiropractorhunter Logo" width="100%" />
+                    <img src={require('../img/logo.png')} alt="Looking for the best chiropractors in Liverpool? We have selected our top chiropractor for the job." width="100%" />
                   </Button>
                 </a>
               </Grid>

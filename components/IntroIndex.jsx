@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
-import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import SearchIcon from '@material-ui/icons/Search';
 import Link from 'next/link';
@@ -75,23 +74,23 @@ function IntroIndex(props) {
               <Grid item xs={12}>
                 <a href="/" style={{textDecoration: 'none',}}>
                   <Button>
-                    <img src={require('../img/logo.png')} alt="Chiropractorhunter Logo" width="100%" />
+                    <img src={require('../img/logo.png')} alt="Find the best qualified chiropractors through Chiropractorhunter" width="100%" />
                   </Button>
                 </a>
               </Grid>
               <Grid item xs={12}>
-                <Typography variant="headline" component="h1" className={classes.chiroheading}>
+                <h1 className={classes.chiroheading}>
                   Find Chiropractics Near You<br />
-                </Typography>
+                </h1>
               </Grid>
               <Grid item xs={12}>
-                <Typography variant="body1" component="p" className={classes.chirop}>
+                <p className={classes.chirop}>
                   If you're looking for the best chiropractors near you, then you're at the right place. We have carefully chosen the best quality chiropractics for you.
-                </Typography>
+                </p>
               </Grid>
               <Grid>
                 <a href="/find-a-chiropractor" style={{textDecoration: 'none',}}>
-                  <Button className={classes.button} variant="raised" color="rgb(178,54,52)">
+                  <Button className={classes.button} variant="contained">
                     Find
                     <SearchIcon className={classes.rightIcon} />
                   </Button>

@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Link from 'next/link';
 import Head from 'next/head';
+import favicon from '../img/chiroicon.png'
 
 const styles = theme => ({
   contentwrapper: {
@@ -78,8 +79,10 @@ function Index(props) {
       <meta property="og:title" content="Find a Chiropractor | Chiropractorhunter" />
       <meta property="og:type" content="article" />
       <meta property="og:url" content="https://chiropractohunter.com/find-a-chiropractor" />
-      <meta name="description" content="Find the best chiropractors!" />
+      <meta name="description" content="Find the best chiropractors! We have accumulated the best list of chiropractors in different locations which can help you deal with pain and other ailments." />
       <link rel="canonical" href="https://chiropractorhunter.com/find-a-chiropractor" />
+      <meta name="keywords" content="chiropractors,chiropractic,pain,clinic,chiropractors,find" />
+      <link rel="icon" href={favicon} type="image/png" />
     </Head>
       <div>
         <IntroIndex />
@@ -98,7 +101,9 @@ function Index(props) {
               <div className={classes.title}>
                 <a href="/chiropractor-liverpool" style={{textDecoration: 'none',}}>
                   <Button>
-                    Liverpool, England
+                    <a href="/chiropractor-liverpool" style={{textDecoration: 'none', color: '#000',}}>
+                      Liverpool, England
+                    </a>
                   </Button>
                 </a>
               </div>

@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
-import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Link from 'next/link';
 
@@ -71,9 +70,16 @@ function Footer(props) {
           </Grid>
           <Grid item xs={12}>
             <div className={classes.footercopy}>
-              <Typography component="p" className={classes.navtext}>
+              <p className={classes.navtext}>
                 &copy;&nbsp;Kapil Shrotriya | www.chiropractorhunter.com
-              </Typography>
+              </p>
+            </div>
+          </Grid>
+          <Grid item xs={12}>
+            <div className={classes.footercopy}>
+              <p className={classes.navtext}>
+                Icons provided by various authors from <a rel="nofollow" href="https://www.flaticon.com" style={{textDecoration: 'None',}}>www.flaticon.com</a>
+              </p>
             </div>
           </Grid>
         </Grid>
