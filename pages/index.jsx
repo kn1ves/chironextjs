@@ -86,6 +86,7 @@ function Index(props) {
       <meta name="keywords" content="chiropractors,chiropractic,pain,clinic,chiropractors" />
       <link rel="canonical" href="https://chiropractorhunter.com" />
       <link rel="icon" href={favicon} type="image/png" />
+      <meta name="google-site-verification" content="FG_VwmU_T9PWkqVIr-BYWaFgprFIKBQTWxE_FNUAoWQ" />
     </Head>
       <div>
         <IntroIndex />
